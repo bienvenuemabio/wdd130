@@ -75,7 +75,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: rgb(23, 151, 141);
 }
 .colors td{
   width: 25%;
