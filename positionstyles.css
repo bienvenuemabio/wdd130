@@ -6,6 +6,10 @@
   grid-template-columns: 1fr  1fr;
   justify-items: center;
   grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
 
 }
 .red1 { 
@@ -39,6 +43,10 @@
   grid-template-columns: 1fr 50px;
   justify-items: center;
   grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .red2 {
   width: 100%; 
@@ -69,6 +77,10 @@
   grid-template-columns: 1fr 1fr;
   justify-items: first baseline;
   grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
 }
 .red3 {
   width: 100px; 
