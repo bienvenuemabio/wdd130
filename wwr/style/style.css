@@ -61,10 +61,10 @@ nav a:hover{
   padding: 35px;
   grid-column:6/10 ;
   grid-row:6/7 ;
-  box-shadow: 5px, 5px, 10px ,chocolate;
+  box-shadow: 5px, 5px, 10px ,yellow;
 }
 footer{
-  background-color: blue;
+  background-color: rgb(5, 168, 168);
   color: black;
   padding: 25px 50px;
   margin-top: 200px ;
@@ -105,7 +105,7 @@ footer a:hover{
   padding-top: 10px;
 }
 #hero-img{
-  width: 100px;
+  width: 100%;
 }
 footer p{
   font-size: 1.2em;
