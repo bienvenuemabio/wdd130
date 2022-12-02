@@ -227,4 +227,25 @@ section, #hero-msg{
       margin-top: 25px;
   }
 }
-  
+  #river-narrow{
+    width: 100%;
+    text-align: center;
+  }
+  .rivers-title{
+    font-size: 50px;
+    margin: top 0;;
+    color: blue;
+  }
+  .home-grid-river{
+    display: grid;
+    grid-template-columns:1fr;
+    text-align: center;
+    margin-top: 30px;
+  }
+  section h4{
+    color: red;
+    background-color: blanchedalmond;
+  }
+  .main-fork-title .desolation section h2{
+    color: darkblue;
+  }
