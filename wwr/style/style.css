@@ -187,7 +187,7 @@ section, #hero-msg{
   transform: scale(1,1);
 }
 @media screen and (max-width: 900px) {
-  #hero, .home-grid {
+#hero, .home-grid {
       display: block;
       height: auto;
   }
@@ -233,10 +233,13 @@ section, #hero-msg{
   }
   .rivers-title{
     font-size: 50px;
-    margin: top 0;;
+    margin: top 0;
     color: blue;
   }
-  .home-grid-river{
+  #river-narrow-msg{
+    margin-top: 0;
+  }
+  .rivers-grid{
     display: grid;
     grid-template-columns:1fr;
     text-align: center;
