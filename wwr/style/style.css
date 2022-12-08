@@ -31,7 +31,7 @@ body{
   margin: 0;
 }
 header{
-  background-color: cyan;
+  background-color: blue;
   display: grid;
   grid-template-columns: 150px auto;
 }
@@ -187,7 +187,7 @@ section, #hero-msg{
   transform: scale(1,1);
 }
 @media screen and (max-width: 900px) {
-#hero, .home-grid {
+  #hero, .home-grid {
       display: block;
       height: auto;
   }
