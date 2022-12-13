@@ -6,11 +6,11 @@
   }
 nav a{
   text-align: center;
-  color: 0000ff;
+  color: rgb(5, 22, 99);
   text-decoration: none;
   padding: 35px;
 }
-#salade-msg h1, #salade-msg h4{
+#chef-msg h1, #chef-msg h4{
   text-align: center;
   color: red;
 }
@@ -28,13 +28,13 @@ body{
   margin: 0;
 }
 header{
-    background-color: royalblue;
+    background-color: rgb(253, 207, 121);
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 20px auto;
 }
 nav a:hover{
-  background-color: orange;
-  color: black;
+  background-color: rgb(13, 8, 88);
+  color: rgb(223, 239, 243);
 }
 .command{
   background-color: orange;
@@ -58,7 +58,7 @@ nav a:hover{
   box-shadow: 5px, 5px, 10px ,yellow;
 }
 footer{
-  background-color: blue;
+  background-color: rgb(253, 207, 121);
   color: black;
   padding: 25px 50px;
   margin-top: 200px ;
@@ -67,7 +67,7 @@ footer{
   align-content: center;
 }
 .home-title{
-  color: red;
+  color: rgb(83, 10, 10);
   font-family:'lato','roboto','sono';
   font-size: 2em;
   margin-top: 100px;
@@ -89,15 +89,16 @@ footer a{
   text-decoration: none;
 }
 footer a:hover{
-  color: blue;
+  color: rgb(87, 67, 2);
 }
 .logo{
-  width: 200px;
+  width: 100px;
   text-align: left;
+  align-self: center;
 }
-#salade-img{
-  width: 100%;
-  text-align: center;
+#chef-img{
+  width: 200px;
+  align-items: left;
 }
 footer p{
   font-size: 1.2em;
@@ -117,13 +118,16 @@ footer .social img{
   padding-top: 15px;
 }
 .chicken-card, .pizza-card, .cake-card{
-  margin: 500px,0;
+  margin: 800px,0;
 }
-.card-img{
+.chicken-card p{
+  float: right;
+}
+/* .card-img{
   border: 10px solid black;
   transition: transform .5s;
   box-shadow: 5px 5px 10px beige;
-}
+} */
 main section img{
   box-sizing: border-box;
 }
@@ -131,21 +135,21 @@ nav{
   display: flex;
   justify-content: space-around;
 }
-#salade{
+#chef{
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   margin-top: -100px;
 }
-#salade-box{
+#chef-box{
   grid-column: 1/4;
   grid-row: 1/3;
   z-index: -1;
 }
-section, #salade-msg{
+section, #chef-msg{
   grid-column:2/3 ;
   grid-row: 1/2;
 }
-#salade-msg{
+#chef-msg{
   grid-column:2/3 ;
   grid-row: 1/2;
   margin-top: 100px;
@@ -154,16 +158,16 @@ section, #salade-msg{
   width: 100px;
 }
 .chicken-card{
-  grid-column: 2/4;
-  grid-row: 2/3;
+  grid-column: 1/2;
+  align-items: center;
 }
 .pizza-card{
-  grid-column: 5/7;
-  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-items: center;
 }
 .cake-card{
-  grid-column: 8/10;
-  grid-row: 2/3;
+  grid-column: 3/4;
+  justify-items: center;
 }
 /* #background{
   grid-column: 1/11;
@@ -178,7 +182,7 @@ section, #salade-msg{
   opacity: .6;
   transform: scale(1,1);
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   #salade, .home-grid {
       display: block;
       height: auto;
@@ -222,3 +226,42 @@ section, #salade-msg{
 .moveDown {
     margin-top: 3em;
   }
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.cooking-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.pastry-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+#pizza{
+  grid-column: 1/2;
+  align-items: center;
+}
+#pois{
+  grid-column: 2/3;
+  justify-items: center;
+}
+#potato{
+  grid-column: 3/4;
+  justify-items: center;
+}
+#kishe{
+  grid-column: 1/2;
+  align-items: center;
+}
+#madelaine{
+  grid-column: 2/3;
+  justify-items: center;
+}
+#pastel{
+  grid-column: 3/4;
+  justify-items: center;
+}
